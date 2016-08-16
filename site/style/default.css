@@ -1,0 +1,36 @@
+/*CSS LESS DEFAULT*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+html,
+body {
+  background-color: #fff;
+}
+@font-face {
+  font-family: encoderegular;
+  src: url('../fonts/EncodeRegular.ttf');
+}
+@font-face {
+  font-family: encodebold;
+  src: url('../fonts/EncodeBold.ttf');
+}
+::-webkit-scrollbar-track {
+  background-color: #cdcdcd;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #cdcdcd;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: #cdcdcd;
+}
+::-webkit-scrollbar-thumb {
+  background: #2ea59a;
+  border-radius: 10px;
+}

@@ -1,0 +1,148 @@
+/*CSS LESS MOBILE*/
+@media (max-width: 480px) {
+  html,
+  body {
+    background-color: #fff;
+  }
+  #header {
+    width: 95%;
+    height: 150px;
+    margin: 10px auto 10px auto;
+    padding-left: 5px;
+  }
+  #header figure {
+    width: auto;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  #header figure h1 {
+    height: auto;
+    width: auto;
+  }
+  #header figure h1 img {
+    width: auto;
+    height: 50px;
+  }
+  #header section {
+    float: left;
+    width: auto;
+    height: 80px;
+  }
+  #header section address {
+    width: auto;
+    height: auto;
+  }
+  #header section address table tr td:first-child {
+    width: auto;
+    height: 25px;
+    padding-top: 5px;
+  }
+  #header section address table tr td:nth-child(2) {
+    padding-right: 10px;
+    text-align: left;
+  }
+  #header section address table tr td:nth-child(3) {
+    width: auto;
+    height: 25px;
+    padding-top: 5px;
+  }
+  #header section address table tr td a {
+    color: #505050;
+  }
+  #header section address table tr td a p {
+    height: 25px;
+    font-style: normal;
+    font-size: 13px;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: encodebold;
+    padding-left: 3px;
+  }
+  #header section address table tr td a img {
+    width: auto;
+    height: 20px;
+  }
+  #header section aside {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+  #header section aside ul {
+    list-style: none;
+    height: 34px;
+    width: 100%;
+  }
+  #header section aside ul li:nth-child(1n+2) {
+    margin-left: 5px;
+  }
+  #header section aside ul li:nth-child(1) {
+    background-color: #c4c2c2;
+    border-radius: 1px;
+  }
+  #header section aside ul li:nth-child(1) :hover {
+    background-color: #4f8fb8;
+    border-radius: 1px;
+  }
+  #header section aside ul li:nth-child(2) {
+    background-color: #c4c2c2;
+    border-radius: 1px;
+  }
+  #header section aside ul li:nth-child(2) :hover {
+    background-color: #afa779;
+    border-radius: 1px;
+  }
+  #header section aside ul li:nth-child(3) {
+    background-color: #c4c2c2;
+    border-radius: 1px;
+  }
+  #header section aside ul li:nth-child(3) :hover {
+    background-color: #e4ba64;
+    border-radius: 1px;
+  }
+  #header section aside ul li:nth-child(4) {
+    background-color: #c4c2c2;
+    border-radius: 1px;
+  }
+  #header section aside ul li:nth-child(4) :hover {
+    background-color: #65c5e2;
+    border-radius: 1px;
+  }
+  #header section aside ul li {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+  }
+  #header section aside ul li a {
+    vertical-align: top  ;
+  }
+  #header section aside ul li a img {
+    width: auto;
+    height: 34px;
+  }
+  #menu {
+    width: 100%;
+    height: 50px;
+    background-color: #00AA9D;
+  }
+  #menu main {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+  }
+  #menu main ul {
+    list-style: none;
+    height: auto;
+    display: none;
+  }
+  #menu main ul a li {
+    display: inline-block;
+    height: 50px;
+    padding: 0px 5px 0px 5px;
+    vertical-align: middle;
+    display: table-cell;
+    color: #fff;
+    font-family: encodebold;
+  }
+}

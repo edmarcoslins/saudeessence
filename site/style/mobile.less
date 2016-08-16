@@ -1,0 +1,195 @@
+/*CSS LESS MOBILE*/
+
+@media (max-width: 480px) {
+
+html,body{
+    background-color: #fff;
+    //overflow-x: hidden;
+}
+
+//HEADER
+#header {
+	width: 100% - 5px;
+	height: 150px;
+	margin: 10px auto 10px auto;
+	padding-left: 5px;
+	//border-bottom: 1px #000 solid;
+
+	figure {
+		//float: left;
+		width: auto;
+		height: auto;
+		margin-bottom: 5px;
+
+		h1 {
+			height: auto;
+			width: auto;
+
+			img {
+				width: auto;
+				height: 50px;
+			}
+		}
+	}
+
+	section {
+		float: left;
+		width: auto;
+		height: 80px;
+		//position: relative;
+
+		address {
+			width: auto;
+			height: auto;
+			//text-align: right;
+
+			table {
+				
+				tr {
+					
+
+					td:first-child{
+						width: auto;
+						height: 25px;
+						padding-top: 5px;
+						//display: none;
+					}
+					td:nth-child(2){
+						padding-right: 10px;
+						text-align: left;
+					}
+					td:nth-child(3){
+						width: auto;
+						height: 25px;
+						padding-top: 5px;
+						//display: none;
+					}
+
+					td{
+
+						a {
+							color: #505050;
+							//display: none;
+
+							p {
+				 				height: 25px;
+				 				font-style: normal;
+				 				font-size: 13px;
+				 				vertical-align: middle;
+				 				display: table-cell;
+				 				font-family: encodebold;
+				 				padding-left: 3px;
+				 			}
+
+				 			img {
+				 				width: auto;
+				 				height: 20px;
+				 			}
+						}
+					}
+				}
+			}
+		}
+
+		aside {
+			width: auto;
+			height: auto;
+			bottom: 0;
+			left: 0;
+			position: absolute;
+
+			ul {
+				list-style: none;
+				height: 34px;
+				width: 100%;
+
+				li:nth-child(1n+2){
+					margin-left: 5px;
+				}
+
+				//Facebook
+				li:nth-child(1){
+					background-color: #c4c2c2;
+					border-radius: 1px;
+					:hover{background-color: #4f8fb8; border-radius: 1px;};
+				}
+				//Instagram
+				li:nth-child(2){
+					background-color: #c4c2c2;
+					border-radius: 1px;
+					:hover{background-color: #afa779; border-radius: 1px;};
+				}
+				//Blog
+				li:nth-child(3){
+					background-color: #c4c2c2;
+					border-radius: 1px;
+					:hover{background-color: #e4ba64; border-radius: 1px;};
+				}
+				//Skype
+				li:nth-child(4){
+					background-color: #c4c2c2;
+					border-radius: 1px;
+					:hover{background-color: #65c5e2; border-radius: 1px;};
+				}
+
+				li{
+					display: inline-block;
+					height: 34px;
+					width: 34px;
+					//padding: 2px 2px 2px 2px;
+					//vertical-align: middle;
+ 					//display: table-cell;
+
+ 					a{
+ 						//background-color: green;
+ 						vertical-align: top  ;
+ 						//display: table-cell;
+ 						//width: 100%;
+ 						//height: 100%;
+ 						//opacity: 0.5;
+
+ 						img {
+							width: auto;
+							height: 34px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//MAIN
+#menu {
+	width: 100%;
+	height: 50px;
+	background-color: #00AA9D;
+
+	main {
+		width: 100%;
+		height: 50px;
+		margin: 0 auto;
+
+		ul {			
+			list-style: none;
+			height: auto;
+			display: none;
+
+			a{
+
+				li{
+					display: inline-block;
+					height: 50px;
+					padding: 0px 5px 0px 5px;
+					vertical-align: middle;
+ 					display: table-cell;
+ 					color: #fff;
+ 					font-family: encodebold;
+				}
+			}
+		}
+	}
+}
+
+}
