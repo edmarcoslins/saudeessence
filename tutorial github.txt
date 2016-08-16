@@ -1,0 +1,6 @@
+Ver status -> git status
+Adicionar tudo -> git add .
+Commit -> git commit -m "Comentário"
+Push -> git push -u origin master
+
+https://www.youtube.com/watch?v=FhslQnM4hyc
