@@ -21,7 +21,7 @@
 			<a href="#"><li>Inicial</li></a>
 			<a href="#"><li>Sobre Nós</li></a>
 			<a href="#"><li>Produtos</li></a>
-			<a href="#"><li>Contato</li></a>
+			<a href="#"><li>Fale Conosco</li></a>
 		</ul>
 	</main>
 </section>
