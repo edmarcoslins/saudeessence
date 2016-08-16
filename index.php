@@ -43,7 +43,7 @@
 	</header>
 	<footer id="footer">
 		<figure>
-			<img src="images/internal/logotipo-diagfarma.svg" title="Diagfarma" alt="Logotipo Diagfarma Grupo"> 
+			<img src="images/internal/logotipo-diagfarma.svg" title="Diagfarma Group" alt="Logotipo Diagfarma Grupo"> 
 		</figure>
 	</div>
 </body>
