@@ -4,7 +4,7 @@ ssh-keygen -t rsa -b 4096 -C "seu_email@dominio.com"
 ## MENSAGEM A SER EXIBIDA, PRESSIONE ENTER
 // Enter file in which to save the key (/Users/you/.ssh/id_rsa): 
 
-## MENSAGEM A SER EXIBIDA, DIGITAR SENHA OU DEIXE VAZIA
+## MENSAGEM A SER EXIBIDA, DIGITAR SENHA OU DEIXE VAZIAa
 //Enter passphrase (empty for no passphrase):  
 //Enter same passphrase again:  
 
