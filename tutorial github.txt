@@ -1,6 +1,0 @@
-﻿Ver status -> git status
-Adicionar tudo -> git add .
-Commit -> git commit -m "Comentário"
-Push -> git push -u origin master
-
-Vídeo explicativo de instalação e configuração de conexão: https://www.youtube.com/watch?v=FhslQnM4hyc
